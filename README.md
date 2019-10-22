@@ -25,7 +25,7 @@ In order to efficiently modify the design of a label it is important to setup an
 ### Modify the ZPL to match your desired layout
 The command below will upload the required script files
 ```console
-scp -P 2022 format_label.py printme pi@10.0.0.224:~/pyprint
+scp -P 2022 template format_label.py printme pi@10.0.0.224:~/pyprint
 ```
 
 

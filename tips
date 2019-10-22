@@ -5,7 +5,7 @@ scp -P 2022 format_label.py printme pi@10.0.0.224:~/pyprint
 
 
 ssh pi@10.0.0.224 -p 2022
-a5SUUJe41bkChn
+
 
 # dump raw template to usb port
 cat template > /dev/ttyUSB0

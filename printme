@@ -1,0 +1,1 @@
+python format_label.py > /dev/ttyUSB0

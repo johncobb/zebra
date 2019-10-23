@@ -1,14 +1,9 @@
 # copy template to host
-scp -P 2022 template pi@10.0.0.224:~/
+scp -P 2022 template format_label.py printme pi@10.0.0.224:~/pyprint
 
-scp -P 2022 format_label.py printme pi@10.0.0.224:~/pyprint
-
-
+# ssh to host
 ssh pi@10.0.0.224 -p 2022
 
-
-# dump raw template to usb port
-cat template > /dev/ttyUSB0
-
-# dump formatted label to usb port
+# pipe formatted label to usb port
 python format_label.py > /dev/ttyUSB0
+

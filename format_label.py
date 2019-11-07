@@ -5,7 +5,7 @@ def format_data():
     data = f.read()
 
     data = data.replace("{vin}", "WAULF78K59N031106")
-    data = data.replace("{year}", "2016")
+    data = data.replace("{year}", "16")
     data = data.replace("{make}", "TOYOTA")
     data = data.replace("{model}", "RAV 4")
     data = data.replace("{color}", "METALLIC SILVER")
@@ -21,8 +21,8 @@ def format_porsche_data():
 
     data = f.read()
 
-    data = data.replace("{vin}", "WP1AA2AYOKDA00835")
-    data = data.replace("{year}", "2019")
+    data = data.replace("{vin}", "WP1AA2AY0KDA00835")
+    data = data.replace("{year}", "19")
     data = data.replace("{make}", "PORSCHE")
     data = data.replace("{model}", "CAYENNE")
     data = data.replace("{color}", "BLUE")
@@ -35,8 +35,8 @@ def format_porsche_data():
 
 if __name__ == "__main__":
 
-    label = format_data()
-    # label = format_porsche_data()
+    # label = format_data()
+    label = format_porsche_data()
     print(label)
 
 # print(data)

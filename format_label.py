@@ -12,6 +12,7 @@ def format_data():
     data = data.replace("{stock}", "8371AD3A")
     data = data.replace("{mileage}", "35,630 MILES")
     data = data.replace("{entry_date}", "JAN 05")
+    data = data.replace("{dealership}", "Kenny Kent Toyota")
 
     return data
 
@@ -29,6 +30,7 @@ def format_porsche_data():
     data = data.replace("{stock}", "KDA00835")
     data = data.replace("{mileage}", "19,872 MILES")
     data = data.replace("{entry_date}", "JAN 05")
+    data = data.replace("{dealership}", "DPatrick Motoplex")
 
     return data
 
